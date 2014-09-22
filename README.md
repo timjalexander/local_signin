@@ -24,6 +24,6 @@ If you would like to download the code and try it for yourself:
 
 ## To Do
 
-1. update files to use semantic-ui (http://semantic-ui.com) instead of bootstrap
+1. update files to use semantic-ui (0.19.3) (http://semantic-ui.com) instead of bootstrap
 
 
