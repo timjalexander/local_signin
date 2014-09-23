@@ -2,8 +2,6 @@
 <html>
 <head>
 	<title>Node Authentication</title>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="css/semantic.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -17,19 +15,15 @@
       <div class="column"></div>
       <div class="column">
         <div>
-            <h1 class="ui header"><span class="jumbo-font"> <i class="user icon"></i>Profile Page</span></h1>
+            <h1 class="ui header"> <i class="user icon"></i>Profile Page</span></h1>
             <br>
-               <% if (user.local.email) { %>
+            <div class="ui segment">
 					<p>
 						<strong>id</strong>: <%= user._id %><br>
 						<strong>email</strong>: <%= user.local.email %><br>
 						<strong>password</strong>: <%= user.local.password %>
 					</p>
-					
-					<a href="/unlink/local" class="ui button">Unlink</a>
-				<% } else { %>
-					<a href="/connect/local" class="ui button">Connect Local</a>
-				<% } %>
+			</div>
             
         </div>
         <div class="column"></div>
