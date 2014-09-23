@@ -18,6 +18,8 @@ If you would like to download the code and try it for yourself:
 5. Launch: `node server.js`
 6. Visit in your browser at: `http://localhost:8080`
 
+Also, use the "ejs_template.ejs" file as a baseline for new pages.
+
 ## The Local Authentication Tutorial from Scotch.io
 
 - [Getting Started and Local Authentication](http://scotch.io/tutorials/javascript/easy-node-authentication-setup-and-local)
