@@ -3,7 +3,10 @@
 
 // Run button configuration
   "commands": {
-        "Node version": "node --version"
+        "Node version": "node --version",
+      "git add": "git add .",
+      "git commit semantic": "git commit -m 'semantic-ui integration'",
+      "git push": "git push -u origin master"
   },
 
 // Preview button configuration
