@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/semantic.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="javascript/modernizr.min.js"></script>
+    <script src="javascript/bootup.js"></script>
 </head>
 
 <body>
@@ -62,10 +63,15 @@
 
     </div>
 
-
-    <script src="javascript/jquery.1.11.0.min.js"></script>
-    <script src="javascript/semantic.min.js"></script>
-    <script src="javascript/main.js"></script>
+    <script type="text/javascript">
+      
+        new BootUp(["javascript/jquery.1.11.0.min.js", "javascript/semantic.min.js", "javascript/main.js"],{
+          success: function(){
+            console.log('Bootup: load successful.');
+          }
+        });
+      
+    </script>
 
 </body>
 
